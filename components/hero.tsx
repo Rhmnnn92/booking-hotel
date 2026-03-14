@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="relative h-screen text-white overflow-hidden">
         <div className="absolute inset-0">
             <Image src={"/hero.jpg"} alt="Hero Image" fill className="object-cover object-center w-full h-full"/>
-            <div className="absolute inset-1 bg-black opacity-50"></div>
+            <div className="absolute inset-0 bg-black opacity-50"></div>
         </div>
 
         <div className="relative flex flex-col justify-center text-center items-center h-full">
