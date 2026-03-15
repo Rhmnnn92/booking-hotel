@@ -21,12 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${raleway.variable} antialiased`}
-      >
-        <Navbar/>
+      <body className={`${raleway.variable} antialiased`}>
+        <Navbar />
         <main className="bg-gray-50 min-h-screen">{children}</main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
