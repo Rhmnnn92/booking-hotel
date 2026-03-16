@@ -12,8 +12,8 @@ const Navlink = () => {
   return (
     <>
       {session?.user ? (
-        <div className="flex items-center gap-3 justify-end md: order-2">
-          <div className="hiddedn text-sm bg-gray-50 border rounded-full md:me-0 md: block focus:ring-4 focus:ring-gray-300">
+        <div className="flex items-center gap-3 justify-end md:order-2">
+          <div className="text-sm bg-gray-50 border rounded-full md:me-0 hidden md:block focus:ring-4 focus:ring-gray-300">
             <Image
               className="size-9 object-cover rounded-full over"
               src={session.user.image || "/file.svg"}
